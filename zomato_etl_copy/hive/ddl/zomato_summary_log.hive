@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS ${dbname}.${tablename}(
+    `Job id` STRING, 
+    `Job Step` STRING,
+    `Spark submit command` STRING, 
+    `Job Start time` STRING,
+    `Job End time` STRING,
+    `Job status` STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION "${user}";

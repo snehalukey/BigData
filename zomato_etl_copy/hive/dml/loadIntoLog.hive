@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INPATH '${filepath}' INTO TABLE ${dbname}.${tablename};

@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS ${dbname}.dim_country;
+DROP TABLE IF EXISTS ${dbname}.zomato_summary_log;
+DROP TABLE IF EXISTS ${dbname}.raw_zomato;
+DROP TABLE IF EXISTS ${dbname}.zomato;
+DROP TABLE IF EXISTS ${dbname}.zomato_summary;

@@ -1,0 +1,7 @@
+create external table IF NOT EXISTS ${dbname}.${dimname}(
+country_code INT,
+country STRING
+)ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION '${loc}'
+tblproperties("skip.header.line.count"="1");

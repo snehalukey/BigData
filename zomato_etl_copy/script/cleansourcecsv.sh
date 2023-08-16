@@ -1,0 +1,1 @@
+rm -rf ~/zomato_etl_copy/source/csv/*
